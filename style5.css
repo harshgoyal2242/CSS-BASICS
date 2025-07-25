@@ -1,0 +1,37 @@
+body{
+    text-align:center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 600px;
+    width:300px;
+    display: flex;
+    /*flex-direction:column-reverse;flex we use row,row reverse, column,column reverse in this*/
+    justify-content:space-around;
+   /* flex-wrap: wrap;*/
+    align-items:center;
+    align-content: flex-end;/*use for align content in upper and lower in the box*/
+}
+#box1{
+    background-color:brown ;
+}
+#box2{
+    background-color: cadetblue;
+}
+#box3{
+    background-color:rebeccapurple ;
+    flex-shrink: 2;/*use for shrink extra than other boxes*/
+    height: 200px;
+}
+#box4{
+    background-color:rgb(8, 24, 34);
+    height: 100px;
+}
+#box5{
+    background-color:gold;
+}

@@ -1,0 +1,43 @@
+/*div{
+    height:25px;
+    width:25px;
+    margin:25px;
+    padding:25px;
+    display:inline;/*takes only the space required by the element.(no margin/padding)
+    block-takes full space available in width
+    none-to remove element from document flow
+    inline block-same as inline but in this we can set margin and padding
+}*/
+#one{
+    display:none;
+}
+#two{
+    background-color: aqua;
+    background-image:url("image.png");/*use for insert image in background*/
+    background-size:cover;/*use for fit perfect the photo*/
+    height: 100px;
+    width:100px;
+    position:sticky;
+    top: 0px;
+}
+#three{
+    background-color: burlywood;
+    position: fixed;/*for fixed a position of a box in a entire page*/
+    height: 100px;
+    width:100px;
+}
+#four{
+    background-color: burlywood;
+    position:relative;/*for move box in all directions*/
+    z-index: -2px;/*for give prority in boxes*/
+    top:400px;
+    left: 150px;
+    height: 100px;
+    width:100px;
+}
+#five{
+    background-color: rgb(41, 80, 65);
+    height: 100px;
+    width:100px;
+    position: static;/*for default position*/
+}

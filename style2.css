@@ -1,0 +1,35 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:cadetblue;
+    border-style: solid;
+    border-color: deeppink;
+    border-width:4px;
+    /* border-radius:50% ;if the height and width are equal then we set radius to 50% to get a perfect circle
+    border-radius:25px;we use this for round the edges of box
+    padding-top:10px;padding is the space given inner the box
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding:1px 2px 3px 4px;for padding shortcut TOP/RIGHT/BOTTOM/LEFT-CLOCKWISE*/
+    padding:25px;/*FOR GIVE SAME PADDING FOR ALL SIDES OF BOX*/
+    text-align: center;
+    margin:50px;/*margin functions is same as padding it is the space given outer the box*/ 
+}
+h1{
+    height:80px;
+    width:150px;
+    background-color:cadetblue;
+    /*border-style:double;
+    border-color:burlywood;
+    border-width:7px;*/
+    border:5px,black,dashed;/*shortcut for border we can write all three function of border in single line*/
+    text-align:center;
+}
+/*practice set 3*/
+#one{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border-radius:50%;
+}

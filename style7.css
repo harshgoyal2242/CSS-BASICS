@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width:150px;
+    background-color: rgb(165, 41, 203);
+    border: 2px soid black;
+    position: absolute;
+    top: 100px;
+    left:100px;
+   /* animation-name:colorAnimate;
+    animation-duration:2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite;
+    animation-direction: normal;*/
+    animation:colorAnimate 4s ease-in 1s infinite normal;/*name|duration|fx|delay|itr count|direction*/
+}
+@keyframes colorAnimate{
+    0% {
+        background-color:rgb(86, 199, 231);
+        left:0px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color:deeppink;
+        left:200px;
+    }
+    
+}

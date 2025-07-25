@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width:250px;
+    background-color: darkslategrey;
+   /* transition-property: all;
+    transition-duration: 2s;use for time delay in colour transition 
+    transition-timing-function: steps(4);use for transition in steps
+    transition-delay:1s;use for time delay in transition*/
+    transition:all 2s ease-in;/*font size|duration|timing function|delay*/
+    position:absolute;
+    top:150px;
+    left:150px;
+   /* transform: rotate(90deg);/*for rotation of box 
+    transform:scale(2,3);/*(x,y) for increase the dimension of box in x and y direction*/
+}
+@media (width:600px) {
+    div{
+        background-color: black;
+    }
+}
+@media(max-width:600px){/*when we achieve 600px in website colour will change*/
+    div{
+        background-color: indigo;
+    }
+}
+@media(min-width:200px) and (max-width:400px){
+    div{
+        background-color: aqua;
+    }
+}
+div:hover{/*hover is use for change the colour when we move cursor on button
+background-color: blue;
+color: chartreuse;
+font-size:30px;for changing font size when we hover the cursor
+transform:rotate(360deg);*/
+transform:skew(60deg);
+}
+div:active{/*use for change the colour when we hold the cursor on button*/
+    background-color: aqua;
+    color: crimson;
+}

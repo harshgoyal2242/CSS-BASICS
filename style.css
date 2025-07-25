@@ -1,0 +1,68 @@
+ h1{ 
+    color:rgb(51, 163, 55);
+}
+p{
+
+    color:rgb(226, 226, 74);
+}
+button{
+    color:rgb(220, 20, 60);
+    background-color:rgb(11, 10, 8);
+}
+body{
+   background-color:rgb(9, 14, 17,0.75);
+}
+*{
+    color:darkslategray;
+ }
+ div{
+    background-color:rgb(27, 51, 60);
+    color:white;
+ }
+ p{
+    text-align:center ;
+ }
+ a{
+    text-decoration:none;
+ }
+ h2{
+    font-size:200;
+ }
+ h3{
+    font-size:400;
+ }
+ h4{
+    font-size:900;
+ }
+ #one {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#two{
+ font-family: Arial, Helvetica, sans-serif;
+}
+#three{
+   font-size:25px;
+   line-height:50px;
+   text-transform: uppercase;
+}
+#four{
+   font-size:10px;
+}
+#five{
+   font-size: 40px;
+}
+/*practice set 2*/
+#six{
+   text-align: center;
+   text-transform: uppercase;
+
+}
+#seven{
+   font-family:'Times New Roman', Times, serif;
+}
+#outer{
+   font-size:25px;
+}
+#inner{
+   font-size:10px;
+}

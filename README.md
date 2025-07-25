@@ -1,2 +1,3 @@
-Learn css with the help of rading this code
 # CSS-BASICS
+LEARN CSS WITH THE HELP OF CODE
+
